@@ -48,6 +48,8 @@ public class MyMain {
 
 
     public static void main(String[] args) {
-        System.out.println(rollDie());
+        System.out.println(probabilityOneSix() + " = probability for one six in 6 rolls");
+        System.out.println(probabilityTwoSixes() + " = probability for two sixes in 12 rolls");
+        System.out.println(probabilityThreeSixes() + " = probability for three sixes in 18 rolls");
     }
 }
